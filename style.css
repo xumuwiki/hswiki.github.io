@@ -1,0 +1,32 @@
+/*词条格式规范*/
+h1.中央标题
+{
+    text-align:center;
+    font-size:20px;
+}
+h1.一级标题
+{
+    font-size:20px;
+}
+h2.二级标题
+{
+    font-size:18px;
+}
+h2.三级标题
+{
+    font-size:16px;
+}
+h2.四级标题
+{
+    font-size:14px;
+}
+p.普通文字
+{
+    text-indent:50px;
+    font-size:13px;
+    text-align:justify;
+}
+p.表格文字
+{
+    font-size:13px;
+}
