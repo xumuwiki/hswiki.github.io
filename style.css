@@ -280,7 +280,7 @@ div.特别出道
 }
 .副菜单:hover>.菜单项_疯狗{
     display:block;  
-    height:315px;
+    height:350px;
 }
 .副菜单>.菜单项_废物{
     width:100%;
@@ -292,7 +292,7 @@ div.特别出道
 }
 .副菜单:hover>.菜单项_废物{
     display:block;  
-    height:615px;
+    height:650px;
 }
 .副菜单>.菜单项_弱智{
     width:100%;
@@ -304,7 +304,7 @@ div.特别出道
 }
 .副菜单:hover>.菜单项_弱智{
     display:block;  
-    height:415px;
+    height:450px;
 }
 .副菜单>.菜单项>列表{
     list-style-type:none;
