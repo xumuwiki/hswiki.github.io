@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>简易纯CSS实现手风琴式菜单</title>	
+	    <script  src="js/jquery.js"></script>
+<style>
+ul {
+list-style:none;
+margin:0 auto 0 0;
+width:100px;
+text-align:center;
+}
+ul li {
+margin:0;
+padding:10px 0;
+}
+ul li a{
+cursor:pointer;
+margin:0;
+padding:10px 50px;
+background:orange;
+position:relative;
+border-radius:4px;
+}
+ul ul {
+margin:0;
+background:#bfbfbf;
+visibility:hidden;
+padding:0 12px;
+position:relative;
+height: 0;
+}
+ul li:hover > ul {
+height: auto;
+visibility:visible;
+}
+ul ul li span:hover {
+cursor:pointer;
+border:1px solid black;
+}
+</style>
+</head>
+<body>
+<ul>
+<li><a>ABC</a>
+<ul>
+<li><span>123</span></li>
+<li><span>456</span></li>
+</ul>
+</li>
+<li><a>DEF</a>
+<ul>
+<li><span>123</span></li>
+<li><span>456</span></li>
+<li><span>789</span></li>
+</ul>
+</li>
+<li><a>GHI</a>
+<ul>
+<li><span>123</span></li>
+</ul>
+</li>
+</ul>
+</body>
+</html>
