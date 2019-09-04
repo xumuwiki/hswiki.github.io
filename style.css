@@ -39,7 +39,7 @@ div.头部
     width:100%;
     height:10%;
     box-shadow:0px 5px 5px #888888;
-    margin:5px;
+    margin:5px auto;
 }
 div.内容
 {
@@ -50,7 +50,7 @@ div.内容
     height:auto;
     float:left;
     box-shadow:10px 10px 5px #888888;
-    margin:5px;
+    margin:5px auto;
 }
 div.侧边栏
 {
@@ -61,7 +61,7 @@ div.侧边栏
     width:18%;
     height:1000px;
     box-shadow:10px 10px 5px #888888;
-    margin:5px;
+    margin:5px auto;
 }
 div.底栏
 {
@@ -71,9 +71,8 @@ div.底栏
     border-radius:25px;
     width:100%;
     height:auto;
-    margin:5px;
     box-shadow:0px 5px 5px #888888;
-    margin:5px;
+    margin:5px auto;
 }
 ul.导航栏
 {
@@ -106,7 +105,7 @@ div.年度杀手
     border:1px solid black;
     border-radius:25px;
     box-shadow:10px 10px 5px #888888;
-    margin:5px;
+    margin:5px auto;
 }
 div.C位出道
 {
@@ -117,7 +116,7 @@ div.C位出道
     border:1px solid black;
     border-radius:25px;
     box-shadow:10px 10px 5px #888888;
-    margin:5px;
+    margin:5px auto;
 }
 div.黑水克星
 {
@@ -128,7 +127,7 @@ div.黑水克星
     border:1px solid black;
     border-radius:25px;
     box-shadow:10px 10px 5px #888888;
-    margin:5px;
+    margin:5px auto;
 }
 div.特别出道
 {
@@ -139,7 +138,7 @@ div.特别出道
     border:1px solid black;
     border-radius:25px;
     box-shadow:10px 10px 5px #888888;
-    margin:5px;
+    margin:5px auto;
 }
 /*手机显示*/
 @media only screen and (max-width: 768px)
@@ -152,6 +151,7 @@ div.特别出道
         width:100%;
         height:10%;
         box-shadow:0px 5px 5px #888888;
+        margin:5px auto;
     }
     div.内容
     {
@@ -161,6 +161,7 @@ div.特别出道
         width:100%;
         height:auto;
         box-shadow:0px 5px 5px #888888;
+        margin:5px auto;
     }
     div.侧边栏
     {
@@ -171,6 +172,7 @@ div.特别出道
         width:100%;
         height:auto;
         box-shadow:0px 5px 5px #888888;
+        margin:5px auto;
     }
     div.底栏
     {
@@ -180,6 +182,7 @@ div.特别出道
         width:100%;
         height:auto;
         box-shadow:0px 5px 5px #888888;
+        margin:5px auto;
     }
     div.年度杀手
     {
@@ -189,6 +192,7 @@ div.特别出道
         border:1px solid black;
         border-radius:25px;
         box-shadow:0px 5px 5px #888888;
+        margin:5px auto;
     }
     div.C位出道
     {
@@ -198,6 +202,7 @@ div.特别出道
         border:1px solid black;
         border-radius:25px;
         box-shadow:0px 5px 5px #888888;
+        margin:5px auto;
     }
     div.黑水克星
     {
@@ -207,6 +212,7 @@ div.特别出道
         border:1px solid black;
         border-radius:25px;
         box-shadow:0px 5px 5px #888888;
+        margin:5px auto;
     }
     div.特别出道
     {
@@ -216,6 +222,7 @@ div.特别出道
         border:1px solid black;
         border-radius:25px;
         box-shadow:0px 5px 5px #888888;
+        margin:5px auto;
     }
     ul.导航栏
     {
